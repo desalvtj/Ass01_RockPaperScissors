@@ -17,6 +17,10 @@ public class Main
 
         do {
 
+            donePlayA = false;
+            donePlayB = false;
+            doneInput = false;
+
             do {
                  System.out.print("Let's play a round of Rock, Paper, Scissors! Player A enter your move [R/P/S]: ");
                  playerA = in.nextLine();
